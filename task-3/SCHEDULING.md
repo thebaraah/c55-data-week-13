@@ -3,7 +3,7 @@
 ## Databricks Job Run URL
 
 Paste the URL of your successful Job run from the Databricks UI address bar:
-
+https://adb-7405619530719547.7.azuredatabricks.net/jobs/402767432860412/runs/733351880002668?o=7405619530719547
 `___`
 
 ## Screenshots
@@ -20,4 +20,4 @@ Ensure the following screenshot files exist in `task-3/screenshots/`:
 
 Write two to three sentences comparing Databricks Jobs and Apache Airflow in your own words:
 
-`___`
+Databricks Jobs is a good choice when the pipeline runs mainly inside the Databricks platform, for example running dbt models, notebooks, or Spark jobs. It provides simple scheduling and monitoring without extra infrastructure. Apache Airflow is better when orchestrating complex workflows across multiple systems, such as APIs, databases, cloud services, and different data platforms.
