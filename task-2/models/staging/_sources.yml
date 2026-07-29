@@ -1,0 +1,14 @@
+version: 2
+
+version: 2
+
+sources:
+  - name: nyc_taxi
+    description: Raw NYC yellow taxi trip records and zone lookup on Databricks (Unity Catalog).
+    database: hyf
+    schema: nyc_yellow
+    tables:
+      - name: raw_trips
+      - name: raw_zones
+
+

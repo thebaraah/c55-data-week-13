@@ -1,0 +1,14 @@
+version: 2
+
+models:
+
+      - name: payment_type
+        tests:
+          - accepted_values:
+              values: [1, 2, 3, 4, 5, 6]
+
+      - name: pickup_location_id
+        tests:
+          - relationships:
+              to: ref('stg_zones')
+              field: location_id
